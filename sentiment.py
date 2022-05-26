@@ -94,7 +94,7 @@ class TweetStreamListener(StreamListener):
 
             # check if tweet has no valid text
             if textclean == "":
-                logger.info("Tweet does not cotain any valid text after cleaning, not adding")
+                logger.info("Tweet does not contain any valid text after cleaning, not adding")
                 self.count_filtered+=1
                 return True
 
